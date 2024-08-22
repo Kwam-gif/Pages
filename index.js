@@ -31,15 +31,15 @@ const speed = require('performance-now')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Nazwa🖤\n' // full name
-            + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=:+62 852-8267-7885\n' // WhatsApp ID + phone number
+            + 'ORG:Owner Bot;15412568380\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=:+1 5142568380\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = '.'
 blocked = []
 
 const config = {
         botname: 'BocchiBot', // Your Name Bot
-        oname: 'NAZWA' // Your Name
+        oname: 'King' // Your Name
 }
 
 function kyun(seconds){
